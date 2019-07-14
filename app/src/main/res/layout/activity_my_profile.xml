@@ -45,7 +45,7 @@
         android:layout_marginTop="24dp"
         android:text="Track :"
         android:fontFamily="serif"
-        android:textSize="20sp"
+        android:textSize="15sp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/view" />
 
@@ -56,7 +56,7 @@
         android:layout_marginTop="24dp"
         android:text="Country :"
         android:fontFamily="serif"
-        android:textSize="20sp"
+        android:textSize="15sp"
         app:layout_constraintStart_toStartOf="@+id/track"
         app:layout_constraintTop_toBottomOf="@+id/track" />
 
@@ -67,7 +67,7 @@
         android:layout_marginTop="24dp"
         android:text="Email :"
         android:fontFamily="serif"
-        android:textSize="20sp"
+        android:textSize="15sp"
         app:layout_constraintStart_toStartOf="@+id/country"
         app:layout_constraintTop_toBottomOf="@+id/country" />
 
@@ -78,7 +78,7 @@
         android:layout_marginTop="24dp"
         android:text="Phone Number :"
         android:fontFamily="serif"
-        android:textSize="20sp"
+        android:textSize="15sp"
         app:layout_constraintStart_toStartOf="@+id/email"
         app:layout_constraintTop_toBottomOf="@+id/email" />
 
@@ -89,7 +89,7 @@
         android:layout_marginTop="24dp"
         android:text="Slack Username :"
         android:fontFamily="serif"
-        android:textSize="20sp"
+        android:textSize="15sp"
         app:layout_constraintStart_toStartOf="@+id/phonenumber"
         app:layout_constraintTop_toBottomOf="@+id/phonenumber" />
 
@@ -100,7 +100,7 @@
         android:layout_marginStart="16dp"
         android:text="Android"
         android:fontFamily="serif"
-        android:textSize="20sp"
+        android:textSize="15sp"
         app:layout_constraintStart_toEndOf="@+id/track"
         app:layout_constraintTop_toTopOf="@+id/track" />
 
@@ -111,7 +111,7 @@
         android:layout_marginStart="24dp"
         android:text="Nigeria"
         android:fontFamily="serif"
-        android:textSize="20sp"
+        android:textSize="15sp"
         app:layout_constraintStart_toEndOf="@+id/country"
         app:layout_constraintTop_toTopOf="@+id/country" />
 
@@ -121,7 +121,7 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="24dp"
         android:fontFamily="serif"
-        android:textSize="20sp"
+        android:textSize="15sp"
         android:text="olifedayo94@gmail.com"
         app:layout_constraintStart_toEndOf="@+id/email"
         app:layout_constraintTop_toTopOf="@+id/email" />
@@ -133,7 +133,7 @@
         android:layout_marginStart="24dp"
         android:text="08165656988"
         android:fontFamily="serif"
-        android:textSize="20sp"
+        android:textSize="15sp"
         app:layout_constraintStart_toEndOf="@+id/phonenumber"
         app:layout_constraintTop_toTopOf="@+id/phonenumber" />
 
@@ -144,7 +144,7 @@
         android:layout_marginStart="24dp"
         android:text="lovisgod"
         android:fontFamily="serif"
-        android:textSize="20sp"
+        android:textSize="15sp"
         app:layout_constraintStart_toEndOf="@+id/slack"
         app:layout_constraintTop_toTopOf="@+id/slack" />
 </androidx.constraintlayout.widget.ConstraintLayout>
